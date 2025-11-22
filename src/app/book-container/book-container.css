@@ -1,0 +1,49 @@
+
+.books-page {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: #393939;
+  min-height: 100vh;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 2px solid #d0d7e2;
+  border-radius: 8px;
+  transition: 0.2s;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #4c8bf5;
+  box-shadow: 0 0 6px rgba(76, 139, 245, 0.3);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+
+.list-section {
+  background: rgb(194, 179, 151);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  max-height: 80vh;
+}
+.form-section {
+  background: rgb(194, 179, 151);;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 20px;
+}
